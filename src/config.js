@@ -12,7 +12,6 @@ if (process.env.ENV === "LOCAL") {
     process.exit(1);
 }
 
-// Construct the environment file path
 const envDir = path.join(__dirname, "../..", envFileName);
 const env = dotenv.parse(fs.readFileSync(envDir));
 
