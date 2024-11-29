@@ -2,7 +2,7 @@ const ethers = require("ethers");
 const SafeLockModuleABI = require("./SafeLockModuleABI.json");
 const config = require("../config");
 
-const target_address = "0xCF8390A74c59e008df3f6154bECf798402301698";
+const target_address = "0x24F378A96eDAA91b20b86300771929Fcb10190E2";
 
 const provider = new ethers.JsonRpcProvider(config.ALCHEMY_URL);
 const signer = new ethers.Wallet(config.PRIVATE_KEY, provider);
