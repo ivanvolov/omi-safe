@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const { lock } = require("./web3");
 
-const config = require("../config");
+const config = require("./config");
 
 const PORT = config.PORT;
 const app = express();
