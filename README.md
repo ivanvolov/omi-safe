@@ -1,23 +1,23 @@
 <img src='assets/Safe time lock-banner.png'>
 
-SOS is the life-saving OMI AI wearable app. When SOS detects you are in a dangerous situation (Say "SOS"), it will contact the authorities with your location & context, to get you help ASAP.
+It is a life-saving OMI AI wearable app. When the app detects you are in a dangerous situation (You are saying a code phrase), it will send a transaction to transfer your crypto to the wallet with a time lock or much higher security measures, so you need to be in a specific place or need other people to unlock it.
 
 ## Omi Plugin Published Details
 ```
   {
-    "id": "SOS",
-    "name": "SOS-Emergency Help",
-    "author": "Shrey Birmiwal",
-    "description": "Alerts authorities and emergency contacts if OMI detects you are in danger. Say 'SOS' and OMI will send your location and context to get you help ASAP.",
-    "image": "/plugins/logos/SOS-logo.png",
+    "id": "Safe_Emergency_Lock",
+    "name": "Safe Wallet Emergency Lock",
+    "author": "Ivan Volovyk",
+    "description": "Instantly time-lock your crypto or transfer it to the shared account if somebody is trying to beat a seed phrase out of you.",
+    "image": "/assets/SOS-logo.png", 
     "capabilities": [
       "external_integration"
     ],
     "external_integration": {
       "triggers_on": "memory_creation",
-      "webhook_url": "https://sos-orcin.vercel.app/api",
-      "setup_completed_url": "https://sos-orcin.vercel.app/setup_completed_url",
-      "setup_instructions_file_path": "/plugins/instructions/SOS/README.md"
+      "webhook_url": "https://safe-omi.ivikkk.xyz/api",
+      "setup_completed_url": "https://drinking-intent-kodjima33.replit.app/webhook/setup-status",
+      "setup_instructions_file_path": "README.md"
     },
     "deleted": false
   }
