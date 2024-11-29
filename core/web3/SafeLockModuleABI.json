@@ -1,0 +1,10 @@
+[
+  {
+    "type": "function",
+    "name": "lock",
+    "inputs": [],
+    "outputs": [
+    ],
+    "stateMutability": "nonpayable"
+  }
+]
